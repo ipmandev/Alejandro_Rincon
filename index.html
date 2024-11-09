@@ -3,15 +3,121 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <title>Portafolio Alejandro Rincón Quintero</title>
 </head>
+
 <body>
-     <header>
-       <h1>PORTAFOLIO ALEJANDRO RINCÓN QUINTERO</h1>
-    </header>
-    <script>
-        src="/main.js"
-    </script>
+    <header>
+        <nav class="navbar navbar-default navbar-fixed-top">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu1" aria-expanded="false">
+              <span class="sr-only"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+              <a class="navbar-brand" href="#"><img class="brand" src="http://users.telenet.be/tomo/images/Logo.svg"></a>
+            </div>
+      
+            <div class="collapse navbar-collapse" id="menu1">
+              <ul class="nav navbar-nav">
+                <li><a href="https://twitter.com/tokk3" target="_blank"><i class="fa fa-twitter fa-lg"></i></a></li>
+                <li><a href="https://codepen.io/tokke/" target="_blank"><i class="fa fa-codepen fa-lg"></i></a></li>
+              </ul>
+              <ul class="nav navbar-nav navbar-right">
+                <li class="navlink"><a class="navbar-link" href="#top">Inicio</a></li>
+                <li class="navlink"><a href="#about">Sobre mi</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contacto</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      
+      
+        <div class="banner" id="top">
+          <div class="container">
+            <div class="row">
+              <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12  banner-content text-center">
+                <h1>Tom Octave</h1>
+                <hr class="horline"></hr>
+              <h4><i class="fa fa-code fa-lg"></i> Full stack web developer <i class="fa fa-code fa-lg"></i></h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+      
+      <section class="aboutc" id="about">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-6 col-md-offset-3 col-lg-6 col-lg-offset-3 text-center">
+              <h2> HI! </h2>
+              <hr class="horline"></hr>
+              <p class="text-about"> My name is Tom Octave, I live in Belgium near Ghent. I have always been interested in coding. I have a basic knowledge of Html, php, C#, python, arduino... That is why I have chosen to start using FreeCodeCamp. Hoping to learn more, to get skilled and maybe one day make my hobby into something more.</p>
+              <hr class="horline"></hr>
+                
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <section class="portfolios" id="portfolio">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
+              <h2> PORTFOLIO </h2>
+            </div>
+          </div>
+          <div class="row thumbs">
+            
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 text-center"> 
+               <a href="https://codepen.io/tokke/full/xOVdOV" target="_blank"><div class="thumbs-link port1"><h2 class="text-center placeholder-idea"></h2></div></a>
+            </div>
+            
+             <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 text-center"> 
+               <a href="https://codepen.io/tokke/full/QEGNGa" target="_blank"><div class="thumbs-link port2"><h2 class="text-center placeholder-idea"></h2></div></a>
+            </div>
+            
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 text-center"> 
+               <div class="thumbs-link port3"><h2 class="text-center valign"></h2></div>
+            </div>
+            
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 text-center"> 
+               <div class="thumbs-link portc"><h2 class="text-center valign">To be made...</h2></div>
+            </div>
+            
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 text-center"> 
+               <div class="thumbs-link portc"><h2 class="text-center valign">To be made...</h2></div>
+            </div>
+            
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 text-center"> 
+               <div class="thumbs-link portc"><h2 class="text-center valign">To be made...</h2></div>
+            </div>
+          </div>    
+        </div>
+      </section>
+      
+      <section class="contact" id="contact">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
+              <h1> CONTACT </h1>
+              
+              <h3>Feel free to contact me on twitter: <a href="https://twitter.com/tokk3" target="_blank"><i class="fa fa-twitter"></i>@tokk3</a>
+                
+            </div>
+          </div>    
+        </div>
+      </section>
+      
+      <footer class="text-center">
+        <p>Made by Tom Octave for <a href="http://www.FreeCodeCamp.com" target="_blank">FreeCodeCamp.com</a></p>
+        <p>ALL RIGHTS RESERVED 2016</p>
+      </footer>
+
     <form id="form">
         <div class="field">
           <label for="to_name">to_name</label>
@@ -39,5 +145,7 @@
       <script type="text/javascript">
         emailjs.init('JaZ59z5MHmRNPypK6')
       </script>
+      <script src="/main.js"></script>
+      <script src="/portafolio.js"></script>
 </body>
 </html>
