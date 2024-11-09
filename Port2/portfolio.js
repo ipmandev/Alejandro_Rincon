@@ -10,8 +10,10 @@ const softSkills = [
   // Listado de Hard Skills
   const hardSkills = [
     "HTML & CSS",
+    "java",
     "JavaScript",
-    "React",
+    ".net",
+    "Angular",
     "Node.js",
     "Git & GitHub"
   ];
